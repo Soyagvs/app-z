@@ -1,10 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Login } from "./pages/login/Login.jsx"
 import { Registred } from "./pages/registred/Registred.jsx"
-import { Home } from './pages/home/Home.jsx';
 import { Layout } from './layouts/Layout.jsx';
+import { Home } from './pages/home/Home.jsx';
 import { Profile } from "./pages/profile/Profile.jsx"
 import { Notifications } from './pages/notifications/Notifications.jsx';
+import { ConditionsServices } from './pages/footer/ConditionsServices.jsx';
+import { PoliciesCookies } from "./pages/footer/PoliciesCookies.jsx"
+import { PoliciesPrivated } from "./pages/footer/PoliciesPrivated.jsx"
+import { PoliciesServices } from "./pages/footer/PoliciesServices.jsx"
 
 function App() {
 
@@ -18,6 +22,10 @@ function App() {
           <Route path='/profile' element={<Profile />} />
           <Route path='/notifications' element={<Notifications />} />
         </Route>
+        <Route path="/conditions-services" element={<ConditionsServices />} />
+        <Route path="/policies-cookies" element={<PoliciesCookies />} />
+        <Route path="/policies-privated" element={<PoliciesPrivated />} />
+        <Route path="/policies-services" element={<PoliciesServices />} />
       </Routes>
     </Router>
   )
