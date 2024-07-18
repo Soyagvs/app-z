@@ -2,29 +2,29 @@ import UserProfile from "../../assets/img/user.png"
 export const Navbar2 = () => {
   return (
       <header className="h-16 w-full bg-white flex justify-center items-center">
-          <img src={UserProfile} alt="" className="w-52 h-52 rounded-full bg-white absolute lg:mr-[910px] mb-36" />
+          <img src={UserProfile} alt="" className="w-52 h-52 rounded-full bg-white absolute lg:mr-[850px] mb-36" />
           <div className="flex justify-center items-center gap-10">
               <div>
                   <a href="">
-                      Ztuits
+                      Posts
                   </a>
                   <p className="text-3xl font-bold text-[#5F5F5F]">11</p>
               </div>
               <div>
                   <a href="">
-                      Follows
+                      Siguiendo
                   </a>
                   <p className="text-3xl font-bold text-[#5F5F5F]">11</p>
               </div>
               <div>
                   <a href="">
-                      Followers
+                      Seguidores
                   </a>
                   <p className="text-3xl font-bold text-[#5F5F5F]">11</p>
               </div>
               <div>
                   <a href="">
-                      Likes
+                      Me gusta
                   </a>
                   <p className="text-3xl font-bold text-[#5F5F5F]">11</p>
               </div>

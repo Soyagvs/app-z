@@ -1,26 +1,26 @@
 import { useState } from "react";
-import { FeedTuits } from "./FeedTuits";
+import { FeedPosts } from "./FeedPosts";
 import { FeedResponse } from "./FeedResponse";
 import { FeedReposts } from "./FeedReposts";
 import { FeedMultimedia } from "./FeedMultimedia";
 
 export const FeedHeaderProfile = () => {
-    const [activeTab, setActiveTab] = useState('tuits');
+    const [activeTab, setActiveTab] = useState('posts');
 
     return (
-        <div className="w-[570px] h-screen bg-white rounded-t-xl">
+        <div className="w-[570px] h-screen bg-white rounded-xl">
             <header className="border-b flex justify-center items-center gap-10 h-10">
                 <button
-                    className={`text-2xl font-semibold ${activeTab === 'tuits' ? 'border-b-4 border-b-[#B25CD6]' : ''}`}
-                    onClick={() => setActiveTab('tuits')}
+                    className={`text-2xl font-semibold ${activeTab === 'posts' ? 'border-b-4 border-b-[#B25CD6]' : ''}`}
+                    onClick={() => setActiveTab('posts')}
                 >
-                    Tuits
+                    Posts
                 </button>
                 <button
                     className={`text-2xl font-semibold ${activeTab === 'response' ? 'border-b-4 border-b-[#B25CD6]' : ''}`}
                     onClick={() => setActiveTab('response')}
                 >
-                    Response
+                    Respuestas
                 </button>
                 <button
                     className={`text-2xl font-semibold ${activeTab === 'reposts' ? 'border-b-4 border-b-[#B25CD6]' : ''}`}
@@ -36,7 +36,7 @@ export const FeedHeaderProfile = () => {
                 </button>
             </header>
             <main>
-                {activeTab === 'tuits' && <FeedTuits />}
+                {activeTab === 'posts' && <FeedPosts />}
                 {activeTab === 'response' && <FeedResponse />}
                 {activeTab === 'reposts' && <FeedReposts />}
                 {activeTab === 'multimedia' && <FeedMultimedia />}

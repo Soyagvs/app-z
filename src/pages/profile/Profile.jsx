@@ -7,15 +7,15 @@ import { GridTendencies } from "../../components/grids/GridTendencies"
 
 export const Profile = () => {
     return (
-        <main class="flex flex-col justify-center items-center">
-            <img src={Portada} alt="" class="w-full" />
+        <main className="flex flex-col justify-center items-center">
+            <img src={Portada} alt="" className="w-full" />
             <Navbar2 />
-            <div class="flex gap-4">
-                <div class="flex gap-4">
+            <div className="flex gap-4">
+                <div className="flex gap-4">
                     <GridProfile />
                     <FeedProfile />
                 </div>
-                <div class="flex flex-col gap-4">
+                <div className="flex flex-col gap-4">
                     <GridUsers />
                     <GridTendencies />
                 </div>
