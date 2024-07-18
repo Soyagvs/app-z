@@ -1,45 +1,59 @@
 export const PoliciesServices = () => {
   return (
-    <main>
-          Política de Servicios
-          1. Introducción
-          Bienvenido a [Nombre de tu Sitio Web] ("nosotros", "nuestro" o "nos"). Al acceder y utilizar nuestros servicios, aceptas cumplir y estar sujeto a los términos y condiciones establecidos en esta Política de Servicios. Si no estás de acuerdo con estos términos, no utilices nuestros servicios.
+    <main className="flex flex-col justify-center items-center">
+      <svg
+        className="mt-10 mb-5"
+        width="40"
+        height="42"
+        viewBox="0 0 40 42"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M32.9136 37.8537C14.4445 37.8537 3.79424 37.9024 0.962964 38C0.864198 37.9187 0.757202 37.7805 0.641975 37.5854C0.526749 37.3903 0.419753 37.1789 0.320988 36.9512C0.222222 36.7236 0.139918 36.5041 0.074074 36.2927C0.0246913 36.0651 0 35.8862 0 35.7561C3.81894 30.4227 7.60495 25.0895 11.358 19.7561C15.1112 14.4065 18.8231 9.04878 22.4939 3.68293C20.9959 3.76423 19.6379 3.88618 18.4198 4.04879C17.2017 4.21138 16.0659 4.43903 15.0124 4.73171C13.9589 5.02439 12.9547 5.39024 12 5.82927C11.0617 6.25203 10.107 6.76423 9.13581 7.36586C8.16461 7.95122 7.1605 8.63415 6.12346 9.41464C5.08643 10.1951 3.95062 11.0813 2.71605 12.0732C1.54732 11.7968 0.757202 11.2195 0.345679 10.3415C3.25926 7.31707 5.31687 3.86992 6.51852 0C8.64198 0.0813009 10.7654 0.138211 12.8889 0.170732C15.0124 0.186991 17.1523 0.195122 19.3086 0.195122C21.4651 0.195122 23.6214 0.186991 25.7777 0.170732C27.9342 0.138211 30.1152 0.0813009 32.321 0C33.4238 0.357724 33.9754 1.15448 33.9754 2.39025C29.7614 8.27643 25.7777 13.8862 22.0247 19.2196C18.2717 24.5366 14.7572 29.5853 11.4815 34.3659H18.4938C20.535 34.3659 22.3622 34.0651 23.9753 33.4634C25.5885 32.8456 26.9959 32.0082 28.1976 30.9512C29.3992 29.8944 30.4034 28.6505 31.2099 27.2195C32.0329 25.7886 32.6832 24.2521 33.1606 22.6098C34.4773 22.8862 35.4239 23.3903 36 24.122C35.9341 24.3659 35.8354 24.7154 35.7037 25.1707C35.5885 25.6261 35.4486 26.1382 35.284 26.7074C35.1358 27.2765 34.9712 27.8862 34.7902 28.5366C34.609 29.1707 34.4362 29.7968 34.2716 30.4146C34.1071 31.0163 33.9589 31.5935 33.8272 32.1464C33.6955 32.6992 33.5391 33.4147 33.358 34.2927C33.177 35.1544 33.0289 36.3415 32.9136 37.8537ZM21.3334 36.8537C25.1523 36.8537 28.0494 35.8618 30.0247 33.878C32.0165 31.8943 33.5721 28.6748 34.6914 24.2196C34.4115 23.9919 34.0906 23.8537 33.7284 23.8049C33.2839 25.3821 32.6996 26.813 31.9754 28.0976C31.251 29.3659 30.2963 30.5691 29.1112 31.7074C27.9424 32.8456 26.4527 33.7398 24.642 34.3903C22.8477 35.0407 20.8148 35.3659 18.5433 35.3659H6.81482C14.535 24.0976 22.3292 13.0082 30.1975 2.09756C30.1975 1.56098 29.9259 1.19513 29.3827 1C23.1111 1.1626 15.7448 1.1626 7.28395 1C6.09876 4.65853 4.20576 7.8374 1.60494 10.5366C1.81893 10.8943 2.15638 11.0732 2.61729 11.0732C5.48149 8.43903 7.67901 5.92683 9.20988 3.53659C9.67079 3.50406 11.7037 3.34959 15.3086 3.07317C18.9301 2.78049 21.9836 2.61788 24.4692 2.58537C16.9136 13.6749 9.09466 24.8293 1.01235 36.0488C1.01235 36.4553 1.12758 36.7724 1.35802 37C3.15226 36.9024 9.81071 36.8537 21.3334 36.8537Z"
+          fill="#6C3483"></path>
+      </svg>
+      <div className="flex flex-col lg:w-[1040px] m-5 justify-center mb-20">
+        <h1 className="max-sm:text-3xl text-8xl font-bold">Política de Servicios</h1>
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">1. Introducción</h2>
+        <p className="mt-2 text-xl text-slate-600">Bienvenido a Z ("nosotros", "nuestro" o "nos"). Al acceder y utilizar nuestros servicios, aceptas cumplir y estar sujeto a los términos y condiciones establecidos en esta Política de Servicios. Si no estás de acuerdo con estos términos, no utilices nuestros servicios.</p>
 
-          2. Descripción de los Servicios
-          [Nombre de tu Sitio Web] ofrece [descripción breve de los servicios que ofreces]. Nos reservamos el derecho de modificar o descontinuar, temporal o permanentemente, los servicios (o cualquier parte de ellos) con o sin previo aviso.
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">2. Descripción de los Servicios</h2>
+        <p className="mt-2 text-xl text-slate-600">Z ofrece una comunidad sana de personas. Nos reservamos el derecho de modificar o descontinuar, temporal o permanentemente, los servicios (o cualquier parte de ellos) con o sin previo aviso.</p>
 
-          3. Uso de los Servicios
-          Elegibilidad
-          Para utilizar nuestros servicios, debes tener al menos [edad mínima] años. Al utilizar nuestros servicios, declaras y garantizas que tienes la edad legal requerida y la capacidad para celebrar un contrato vinculante.
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">3. Uso de los Servicios</h2>
+        <p className="mt-2 text-xl text-slate-600">Elegibilidad</p>
+        <p className="mt-2 text-xl text-slate-600">Para utilizar nuestros servicios, debes tener al menos 16 años. Al utilizar nuestros servicios, declaras y garantizas que tienes la edad legal requerida y la capacidad para celebrar un contrato vinculante.</p>
 
-          Registro y Seguridad de la Cuenta
-          Es posible que necesites crear una cuenta para acceder a algunas funciones de nuestros servicios. Eres responsable de mantener la confidencialidad de tu cuenta y contraseña y de restringir el acceso a tu computadora. Aceptas notificar a [Nombre de tu Sitio Web] inmediatamente sobre cualquier uso no autorizado de tu cuenta o cualquier otra violación de seguridad.
+        <p className="mt-2 text-xl text-slate-600">Registro y Seguridad de la Cuenta</p>
+        <p className="mt-2 text-xl text-slate-600">Es posible que necesites crear una cuenta para acceder a algunas funciones de nuestros servicios. Eres responsable de mantener la confidencialidad de tu cuenta y contraseña y de restringir el acceso a tu computadora. Aceptas notificar a Z inmediatamente sobre cualquier uso no autorizado de tu cuenta o cualquier otra violación de seguridad.</p>
 
-          Conducta del Usuario
-          Al utilizar nuestros servicios, aceptas no:
+        <p className="mt-2 text-xl text-slate-600">Conducta del Usuario</p>
+        <p className="mt-2 text-xl text-slate-600">Al utilizar nuestros servicios, aceptas no:</p>
 
-          Usar los servicios para cualquier propósito ilegal o no autorizado.
-          Interferir con o interrumpir el funcionamiento de los servicios.
-          Hacerse pasar por cualquier persona o entidad, o declarar falsamente o tergiversar tu afiliación con una persona o entidad.
-          Publicar, cargar o transmitir cualquier contenido que sea ofensivo, difamatorio, obsceno o que infrinja los derechos de terceros.
-          4. Propiedad Intelectual
-          Todos los contenidos, marcas comerciales, logotipos, imágenes y software utilizados en nuestros servicios son propiedad de [Nombre de tu Sitio Web] o de nuestros licenciantes y están protegidos por las leyes de propiedad intelectual aplicables. No puedes reproducir, distribuir, modificar o crear trabajos derivados de ninguno de nuestros contenidos sin nuestro permiso expreso por escrito.
+        <p className="mt-2 text-xl text-slate-600">Usar los servicios para cualquier propósito ilegal o no autorizado.</p>
+        <p className="mt-2 text-xl text-slate-600">Interferir con o interrumpir el funcionamiento de los servicios.</p>
+        <p className="mt-2 text-xl text-slate-600">Hacerse pasar por cualquier persona o entidad, o declarar falsamente o tergiversar tu afiliación con una persona o entidad.</p>
+        <p className="mt-2 text-xl text-slate-600">Publicar, cargar o transmitir cualquier contenido que sea ofensivo, difamatorio, obsceno o que infrinja los derechos de terceros.</p>
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">4. Propiedad Intelectual</h2>
+        <p className="mt-2 text-xl text-slate-600">Todos los contenidos, marcas comerciales, logotipos, imágenes y software utilizados en nuestros servicios son propiedad de Z o de nuestros licenciantes y están protegidos por las leyes de propiedad intelectual aplicables. No puedes reproducir, distribuir, modificar o crear trabajos derivados de ninguno de nuestros contenidos sin nuestro permiso expreso por escrito.</p>
 
-          5. Limitación de Responsabilidad
-          En la medida máxima permitida por la ley aplicable, [Nombre de tu Sitio Web] no será responsable por ningún daño indirecto, incidental, especial, consecuente o punitivo, ni por ninguna pérdida de beneficios o ingresos, ya sea incurrido directa o indirectamente, ni por cualquier pérdida de datos, uso, fondo de comercio u otras pérdidas intangibles, resultantes de:
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">5. Limitación de Responsabilidad</h2>
+        <p className="mt-2 text-xl text-slate-600">En la medida máxima permitida por la ley aplicable, Z no será responsable por ningún daño indirecto, incidental, especial, consecuente o punitivo, ni por ninguna pérdida de beneficios o ingresos, ya sea incurrido directa o indirectamente, ni por cualquier pérdida de datos, uso, fondo de comercio u otras pérdidas intangibles, resultantes de:</p>
 
-          Tu acceso o uso o la imposibilidad de acceder o utilizar los servicios.
-          Cualquier conducta o contenido de cualquier tercero en los servicios.
-          Cualquier contenido obtenido de los servicios.
-          Acceso, uso o alteración no autorizados de tus transmisiones o contenido.
-          6. Modificaciones a la Política de Servicios
-          Podemos revisar y actualizar esta Política de Servicios de vez en cuando a nuestra entera discreción. Todas las modificaciones son efectivas inmediatamente cuando las publicamos, y se aplican a todos los accesos y usos de los servicios posteriormente. El uso continuo de los servicios después de la publicación de los términos revisados significa que aceptas y estás de acuerdo con los cambios.
+        <p className="mt-2 text-xl text-slate-600">Tu acceso o uso o la imposibilidad de acceder o utilizar los servicios.</p>
+        <p className="mt-2 text-xl text-slate-600">Cualquier conducta o contenido de cualquier tercero en los servicios.</p>
+        <p className="mt-2 text-xl text-slate-600">Cualquier contenido obtenido de los servicios.</p>
+        <p className="mt-2 text-xl text-slate-600">Acceso, uso o alteración no autorizados de tus transmisiones o contenido.</p>
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">6. Modificaciones a la Política de Servicios</h2>
+        <p className="mt-2 text-xl text-slate-600">Podemos revisar y actualizar esta Política de Servicios de vez en cuando a nuestra entera discreción. Todas las modificaciones son efectivas inmediatamente cuando las publicamos, y se aplican a todos los accesos y usos de los servicios posteriormente. El uso continuo de los servicios después de la publicación de los términos revisados significa que aceptas y estás de acuerdo con los cambios.</p>
 
-          7. Ley Aplicable
-          Esta Política de Servicios se regirá e interpretará de acuerdo con las leyes de [tu país/estado], sin dar efecto a ninguna disposición o norma de conflicto de leyes.
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">7. Ley Aplicable</h2>
+        <p className="mt-2 text-xl text-slate-600">Esta Política de Servicios se regirá e interpretará de acuerdo con las leyes de Argentina, sin dar efecto a ninguna disposición o norma de conflicto de leyes.</p>
 
-          8. Contacto
-          Si tienes alguna pregunta sobre esta Política de Servicios, por favor contáctanos en [tu dirección de correo electrónico de contacto].
-    </main>
+        <h2 className="text-purple-800 text-2xl font-bold mt-5">8. Contacto</h2>
+        <p className="mt-2 text-xl text-slate-600">Si tienes alguna pregunta sobre esta Política de Servicios, por favor contáctanos en soyagvs@gmail.com .</p>
+      </div>
+    </main >
   )
 }
