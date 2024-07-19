@@ -24,7 +24,6 @@ function App() {
           <Route path='/profile' element={<Profile />} />
           <Route path='/notifications' element={<Notifications />} />
           <Route path='/configurations' element={<Configurations />} />
-
         </Route>
         <Route path='/support' element={<Support />} />
         <Route path="/conditions-services" element={<ConditionsServices />} />
