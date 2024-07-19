@@ -8,7 +8,7 @@ import { GridTendencies } from "../../components/grids/GridTendencies"
 export const Profile = () => {
     return (
         <main className="flex flex-col justify-center items-center">
-            <img src={Portada} alt="" className="w-full" />
+            <img src={Portada} alt="Image to portada" className="w-full" loading="lazy" decoding="async" />
             <Navbar2 />
             <div className="flex gap-4">
                 <div className="flex gap-4">

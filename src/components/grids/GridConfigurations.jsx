@@ -127,7 +127,7 @@ export const GridConfigurations = () => {
                 </div>
                 <div className="flex justify-start items-center">
                     <a
-                        href="/support"
+                        href="/support" target='_blank'
                         className="flex justify-start items-center font-bold text-3xl p-5 gap-5"
                     >
                         Centro de ayuda
